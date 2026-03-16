@@ -16,11 +16,12 @@
 ## 2. Initial Configuration
 After installing the server, I configured the folllowing:
   - Changed the machine name to `WinServer2022`
-  - Set Static IP address: `192.168.1.10`
-  - Configured DNS to point itself: `192.168.1.10`
-  - Default Gateway: `192.168.1.1`
+  - Set Static IP address: `192.168.253.5`
+  - Configured DNS to point itself: `127.0.0.1`
+    - Alternate DNS: `8.8.8.8`
+  - Default Gateway: `192.168.253.2`
 
-![IP Config](https://github.com/user-attachments/assets/78085184-2773-4f02-86ec-aba71d7f87e8)
+![IP Config](https://github.com/user-attachments/assets/d557b944-3d11-4ad9-93ed-6114dfd1fd54)
 
 ## 3. Installing Active Directory
 - Opened **Manage**
@@ -41,7 +42,7 @@ After installing the server, I configured the folllowing:
 
 ![Promoting to domain controller](https://github.com/user-attachments/assets/e35e6e57-88e2-4099-a6c4-b84dd48f469e)
 
-🖼️ ***Successful Promotion***
+🖼️ **Successful Promotion**
 
 ![Successful Promotion](https://github.com/user-attachments/assets/e1376f34-3ff6-41ff-a820-598e0729ce48)
 ![AD Users and Computers](https://github.com/user-attachments/assets/721b333e-a6fd-43e5-9824-f0c5d9ea2ca6)
@@ -51,9 +52,9 @@ After installing the server, I configured the folllowing:
 | Configuration Item         | Value                            |
 |----------------------------|----------------------------------|
 | **Server Name**            | WinServer2022                    |
-| **Static IP**              | 192.168.1.10                     |
+| **Static IP**              | 192.168.253.5                    |
 | **Domain Name**            | lechuga.local                    |
-| **DNS Server**             | 192.168.1.10 (local)             |
+| **DNS Server**             | 127.0.0.1 (local)                |
 | **AD Role Installed**      | Active Directory Domain Services |
 | **Domain Controller Type** | New Forest                       |
 
