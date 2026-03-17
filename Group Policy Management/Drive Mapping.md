@@ -9,9 +9,9 @@ This section outlines how network drives were automatically mapped for users bas
 
 | Drive                                     | Path         |
 |---------------------------------------------|---------------|
-| **IT Drive ( I: )**                | \\WINSERVER2022\IT    |
-| **HR Drive ( H: )**               | \\WINSERVER2022\HR    |
-| **Sales Drives ( S: )**     | \\WINSERVER2022\SALES     |
+| **IT Drive ( I: )**                | \\\WINSERVER2022\IT    |
+| **HR Drive ( H: )**               | \\\WINSERVER2022\HR    |
+| **Sales Drives ( S: )**     | \\\WINSERVER2022\SALES     |
 
 - Set the **Action** to `Update`:
   - It will create the drive if it does not exist
