@@ -61,3 +61,16 @@ The custom settings were saved as `Documents and Text Files Onlyl` and applied t
 
 ![Completed File Screening](https://github.com/user-attachments/assets/23b45754-c0a0-4b56-b68a-ac41be4effdb)
 
+## 3. Verification 
+- Created a text file on the shared folder `C:\HR`
+- Text file was successfully created and allowed on the shared folder
+- Downloaded `.mp4` file and moved to the shared folder. Permission was denied 
+
+🖼️ **Allowed Text File**
+
+![Documents Allowed](https://github.com/user-attachments/assets/36be6e70-342e-474e-83e3-bc49e1e4fb0a)
+
+🖼️ **Denied .mp4 File**
+
+![Denied Video File](https://github.com/user-attachments/assets/9e993bca-1593-47e7-bc53-65885676f1bc)
+
