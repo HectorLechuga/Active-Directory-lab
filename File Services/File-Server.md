@@ -63,7 +63,7 @@ Configured the following:
   - Access to their respective \\WINSERVER2022\
   - Ability to create / edit files within folder
   - Unable to view other department folders
-- [Implemented Drive Mapping](Drive-Mapping.md)
+- [Implemented Drive Mapping](Group%20Policy%20Management/Drive-Mapping.md)
 
 🖼️ **Verifying HR Drive** 
 
