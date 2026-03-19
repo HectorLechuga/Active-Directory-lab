@@ -1,8 +1,8 @@
 # File Server Resource Manager (FSRM)
 Utilizing FSRM to enforce storage limits and control the file types allowed on shared resources within the Active Directory enviroment.
-- Opened Server Manager
-- Selected Add Roles and Features
-- Installed FSRM
+- Opened **Server Manager**
+- Selected **Add Roles and Features**
+- Installed **FSRM**
 
 🖼️ **Installing FSRM**
 
@@ -36,7 +36,7 @@ A Quota template was created using the settings listed above and appled to the f
 ![Completed Quotas](https://github.com/user-attachments/assets/447c0037-0893-41d7-8046-da424f97104f)
 
 ## 2. File Screening
-Configured file screening to block specific files types that are commonly restricted in enterprise enviroments, such as executables, media files, and to reduce unnecessary risks.
+Configured file screening to block specific files types that are commonly restricted in enterprise enviroments, such as executables, media files, and to reduce unnecessary security risks.
 
 I configured the following:
 - File Screen Path: `C:\Sales`
@@ -47,7 +47,7 @@ I configured the following:
   - `Executable`
   - `Image Files`
  
-The custom settings were saved as `Documents and Text Files Onlyl` and applied to `C:\HR`. `C:\IT` was given only block `Audio and Video Files`
+The custom settings were saved as `Documents and Text Files Only` and applied to `C:\HR`. `C:\IT` was given only block `Audio and Video Files`
  
 🖼️ **Creation of Sales File Screening** 
 
