@@ -18,7 +18,16 @@ It is used to protect user accounts from brute-force attacks. It will automatica
 ![Defined Account Lockout Policy](https://github.com/user-attachments/assets/0de4c515-cf1e-46be-bb90-bd90cd8f0353)
 
 ## 3. Verifying GPO
-  - I tested using a user account and inputted the incorrect password to ensure lockout
-  - Confirmed lockout by viewing Event Viewer logs and GPO Management Console
+  - Inputted 5 incorrect logins for user `csmith`
+  - Verified user account was locked
+  - Checked Event Viewer logs for lockout entries under: `Event Viewer > Windows Logs > Security`
 
-     
+🖼️ **User Account Locked Out**
+
+![Locked Account](https://github.com/user-attachments/assets/1c80061f-4c57-4086-9f5e-aac7b92ab508)
+
+🖼️ **User Account Management Account Lockout**
+
+![Event Log](https://github.com/user-attachments/assets/7aea0631-04c9-4ea1-a097-47a8dd3ab6ab)
+
+
