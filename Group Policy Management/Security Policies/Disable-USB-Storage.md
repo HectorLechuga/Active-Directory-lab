@@ -17,5 +17,6 @@ It is used to prevent users from accessing removeable USB storage devices on dom
 ![Defined USB Device](https://github.com/user-attachments/assets/ac84349e-96ff-4007-814e-7fc909fae2a1)
 
 ## 3. Verifying GPO
-
-     
+- Confirm policy was applied using `gpresult /r`
+- Inserted a USB storage device into a client machine
+- Verified access to device was blocked and attmped to transfer files to media storage 
