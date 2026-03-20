@@ -6,7 +6,7 @@ Implemented a fully functional Windows Server lab environment using VMware Fusio
   - [Windows Server Setup](./Environment%20Setup/Windows-Server-Setup.md)
   - [Windows Client Setup](./Environment%20Setup/Windows-Client-Setup.md)
   - [Organizational Unit Structure](./Environment%20Setup/Organizational-Unit-Structure.md)
-  - DHCP Server
+  - [DHCP Server](./Environment%20Setup/DHCP-Server.md)
 - Group Policy Management
   - Security Policies
     - [Account Lockout](./Group%20Policy%20Management/Security%20Policies/Account-Lockout.md)
