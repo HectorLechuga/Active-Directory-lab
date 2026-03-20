@@ -3,9 +3,9 @@ Implemented a fully functional Windows Server lab environment using VMware Fusio
 
 ## Project Structure 
 - Environment Setup
-  - [Windows Server Setup](../Environment%Setup/Windows-Server-Setup.md)
-  - [Windows Client Setup](../Environment%Setup/Windows-Client-Setup.md)
-  - [Organizational Unit Structure](../Environment%Setup/Organizational-Unit-Structure.md)
+  - [Windows Server Setup](./Environment%20Setup/Windows-Server-Setup.md)
+  - [Windows Client Setup](./Environment%20Setup/Windows-Client-Setup.md)
+  - [Organizational Unit Structure](./Environment%20Setup/Organizational-Unit-Structure.md)
   - DHCP Server
 - Group Policy Management
   - Security Policies
