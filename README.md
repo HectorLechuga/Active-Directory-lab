@@ -1,5 +1,5 @@
 # Active-Directory-lab
-Implemented a fully functional Windows Server lab environment using VMware Fusion. This AD lab replicates a real world enterprise network by installing Windows Server 2022, configuring domain services, user management, Group Policy Objects, and file server.
+Implemented a fully functional Windows Server lab environment using VMware Workstation Pro. This AD lab replicates a real world enterprise network by installing Windows Server 2022, configuring domain services, user management, Group Policy Objects, and file server.
 
 ## Project Structure 
 - Environment Setup
